@@ -11,7 +11,9 @@ import java.util.TimerTask;
 
 public class MainService extends Service {
 
+    // The task to be periodically executed
     TimerTask task;
+    // The timer which executes the task
     Timer timer;
 
     public MainService() {
